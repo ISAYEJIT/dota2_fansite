@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI';
+    padding-top: 30px;
+    margin: 0;
+    z-index: 1;
+}
+
+article {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+nav {
+    display: inline-block;
+}
+
+main {
+    vertical-align: center;
+    background-image: url("../images/proj4.jpg");
+    background-color: transparent;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.ib {
+    display: inline-block;
+}
+
+p {
+    width: 500px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+header {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #6B2A2A;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+}
+
+li {
+    font-size: 18px;
+    font-weight: 900;
+    width: 100px;
+    margin: 0px 0px 0px 10px;
+    padding: 20px;
+    display: inline-block;
+    border: 3px solid #562121;
+    background-color: #6B2A2A;
+}
+
+li:hover {
+    color: #D6D5D5;
+    background-color: #8B2F38;
+}
+
+.but1 {
+    position: relative;
+    bottom: 120px;
+    left: 100px;
+}
+
+.but2 {
+    position: relative;
+    bottom: 100px;
+}
+
+.but {
+
+    font-size: 80px;
+    padding: 60px 80px 70px 80px;
+    border: 5px solid #6B2A2A;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: #6B2A2A;
+}
+
+span a:hover {
+    color: #D6D5D5;
+    background-color: #8B2F38;
+    border: 5px solid #8B2F38;
+}
+
+.mbut {
+    font-size: 40px;
+    padding: 30px 170px 35px 170px;
+    border: 5px solid #6B2A2A;
+    color: #FFFFFF;
+    background-color: #6B2A2A;
+}
+
+
+h2 {
+    color: #FFFFFF;
+    font-size: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.gif1 {
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+}
+
+.gif2 {
+    position: relative;
+    left: 117px;
+    bottom: 550px;
+}
+
+.under {
+    margin: 100px 0px 0px 0px;
+    width: 1000px;
+}
+
+footer {
+    padding: 10px 0px 0px 30px;
+    width: 100%;
+    height: 100px;
+    position: static;
+    bottom: 0;
+    right: 0;
+    background-color: #562121;
+}
+
+footer p {
+
+    font-size: 14px;
+}
+
+.main2 {
+    margin: 0px 0px 200px 0px;
+}
+
+.pimg {
+    position: relative;
+    left: 600px;
+    bottom: 1000px;
+}
